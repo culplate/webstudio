@@ -1,11 +1,3 @@
-.section-title {
-  font-size: 36px;
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-  line-height: 1.11;
-}
-
 /* LOGO */
 
 .logo {
@@ -109,32 +101,6 @@
 /* BENEFITS SECTION */
 
 /* WE DOING SECTION */
-
-.we-doing-section {
-  padding: 0 0 120px;
-}
-
-.we-doing-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-}
-
-.we-doing-container .list {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  gap: 24px;
-}
-
-.we-doing-img-wrapper {
-  flex-basis: calc((100% - (24px * 2)) / 3);
-}
-
-.we-doing-img {
-  border: 1px solid var(--accent-color);
-}
 
 /* OUR TEAM SECTION */
 
