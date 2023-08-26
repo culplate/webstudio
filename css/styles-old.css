@@ -1,26 +1,3 @@
-/* LOGO */
-
-.logo {
-  text-transform: uppercase;
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.logo span {
-  color: var(--primary-brand-color);
-}
-
-.dark-logo {
-  color: var(--dark-color);
-}
-
-.light-logo {
-  color: var(--light-color);
-}
-
 /* HEADER */
 
 .topline {
@@ -37,7 +14,6 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .navigation {
@@ -49,7 +25,6 @@
 .navigation-menu,
 .contacts-list {
   display: flex;
-  /* align-items: center; */
   gap: 40px;
 }
 
@@ -105,47 +80,6 @@
 /* OUR TEAM SECTION */
 
 /* CUSTOMERS SECTION */
-
-.customers-section {
-  padding: 120px 0;
-}
-
-.customers-icons-container {
-  position: relative;
-  display: flex;
-  gap: 24px;
-}
-
-.customers-icons-wrapper {
-  width: calc((100% - 120px) / 6);
-  height: 88px;
-}
-
-.company-link {
-  height: 100%;
-  width: 100%;
-  border: 1px solid var(--subtle-color);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--subtle-color);
-}
-
-.customers-icon {
-  fill: currentColor;
-}
-
-.company-link:hover,
-.company-link:focus {
-  color: var(--pressed-state-color);
-  border-color: var(--pressed-state-color);
-}
-
-.customers-icons-wrapper:hover {
-}
 
 /* PROJECTS */
 
@@ -271,56 +205,6 @@
 /* FILTERS BUTTONS */
 
 /* FOOTER */
-
-footer {
-  background-color: var(--dark-color);
-}
-
-.bottom {
-  padding: 100px 0;
-}
-
-.bottom-container {
-  display: flex;
-  align-items: baseline;
-}
-
-.bottom-container .light-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.bottom-info {
-  margin-right: 120px;
-}
-
-.bottom-sm {
-  margin-right: 80px;
-}
-
-.bottom-wrapper:last-child {
-  margin-right: 0;
-}
-
-.footer-text {
-  color: var(--light-color);
-  letter-spacing: 0.02em;
-  max-width: 264px;
-}
-
-.social-m-heading {
-  color: var(--white-background-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
-.bottom .sm-link:hover,
-.bottom .sm-link:focus {
-  background-color: var(--success-color);
-}
 
 /* OVERLAY + MODAL */
 
@@ -509,7 +393,6 @@ footer {
 }
 
 .check-icon {
-  /* fill: transparent; */
 }
 
 .privacy-policy-link {
@@ -519,55 +402,3 @@ footer {
 }
 
 /* SUBSCRIBE FORM */
-
-.subscribe-form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.subscribe-input {
-  height: 40px;
-  width: 264px;
-  padding: 8px 16px;
-
-  background-color: transparent;
-  outline: none;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 1px solid var(--white-background-color);
-
-  color: var(--white-background-color);
-  font-family: var(--primary-font);
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-.subscribe-input::placeholder {
-  color: var(--white-background-color);
-}
-
-.subscribe-input:focus {
-  /* border-color: var(--primary-brand-color); */
-}
-
-.subscribe-btn {
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  min-width: 165px;
-  padding: 8px 24px;
-  border-radius: 4px;
-  background-color: var(--primary-brand-color);
-  color: var(--white-background-color);
-}
-
-.subscribe-icon {
-  fill: var(--white-background-color);
-  margin-left: 16px;
-}
