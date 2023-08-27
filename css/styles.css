@@ -428,8 +428,8 @@ main {
 }
 
 .menu-container .social-media-icon-container {
-  gap: 56px;
-  justify-content: start;
+  max-width: 328px;
+  justify-content: space-between;
 }
 
 .mobile-contacts {
@@ -438,6 +438,12 @@ main {
 
 .mobile-contacts-item:not(:last-child) {
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .mobile-contacts-item .mobile-contacts-link {
+    font-size: 20px;
+  }
 }
 
 .mobile-contacts-item:last-child .mobile-contacts-link {
