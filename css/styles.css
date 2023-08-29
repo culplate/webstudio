@@ -1028,18 +1028,19 @@ main {
 
 .project-card-img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
   .project-card-img {
-    width: 356px;
+    /* width: 356px; */
   }
 }
 
 @media screen and (min-width: 1158px) {
   .project-card-img {
-    width: 360px;
+    /* width: 360px; */
   }
 }
 
